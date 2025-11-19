@@ -2,15 +2,18 @@
   "name": "01backend",
   "version": "1.0.0",
   "description": "This is a backend series",
-  "main": "index.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeman src/index.js"
   },
   "keywords": [
     "backend",
     "javascript"
   ],
   "author": "VIKASH YADAV",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
 }
